@@ -1,0 +1,9 @@
+{
+	"name": "PolicydataADFnyn",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4b7d9c33-f2ad-415b-b664-5383b0d85714",
+		"tenantId": "c18140c3-bd49-4293-b34e-f8d1416cb4f9"
+	}
+}
