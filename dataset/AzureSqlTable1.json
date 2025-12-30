@@ -1,0 +1,30 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "branch_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "branch_country",
+				"type": "varchar"
+			},
+			{
+				"name": "branch_city",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Claim"
+		}
+	}
+}
