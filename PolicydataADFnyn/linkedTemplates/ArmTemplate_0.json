@@ -369,7 +369,8 @@
 				"policy": {
 					"elapsedTimeMetric": {}
 				},
-				"annotations": []
+				"annotations": [],
+				"lastPublishTime": "2025-12-28T12:12:53Z"
 			},
 			"dependsOn": [
 				"[concat(variables('factoryId'), '/datasets/producttable')]",
@@ -441,7 +442,8 @@
 				"policy": {
 					"elapsedTimeMetric": {}
 				},
-				"annotations": []
+				"annotations": [],
+				"lastPublishTime": "2025-12-28T12:12:53Z"
 			},
 			"dependsOn": [
 				"[concat(variables('factoryId'), '/datasets/AzureSqltableBranch')]",
